@@ -2,7 +2,7 @@ package automacao;
 
 import automacao.controller.SolicitacaoController;
 
-// Durante o desenvolvimento usei MockApiService por padrão. Quando tiver os dados do site Ahgora a ideia é trocar para o ApiService.
+// Durante o desenvolvimento usei MockApiService por padrão. Quando tiver os dados do site Ahgora a ideia é trocar para o RealApiService.
 
 public class App {
 
