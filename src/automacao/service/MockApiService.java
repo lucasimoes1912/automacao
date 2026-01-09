@@ -27,6 +27,10 @@ public class MockApiService implements ApiService {
                 lista.add(new Solicitacao("S3", "3", TipoSolicitacao.ABONO,
                         null, null));
                 break;
+            case "4": // Tiago - 7h30 (fora da tolerância)
+                lista.add(new Solicitacao("S4", "4", TipoSolicitacao.AJUSTE_HORARIO, 
+                        LocalTime.of(7, 30), LocalTime.of(14, 0)));
+                break;          
             default:
                 // ninguém encontrado — retorna lista vazia
                 break;

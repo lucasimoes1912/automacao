@@ -82,7 +82,7 @@ public class SolicitacaoController {
         if (diff <= TOL) {
             return "APROVADO";
         } else {
-            return "RECUSADO";
+            return "PENDENTE";
         }
     }
 }

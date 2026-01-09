@@ -14,7 +14,7 @@ public class App {
         SolicitacaoController controller = new SolicitacaoController();
 
         // Se quiser testar com todos os exemplos do mock é só trocar o "CHEFIA A" por ""
-        controller.processarSolicitacoes("CHEFIA A");
+        controller.processarSolicitacoes("");
 
         System.out.println("Processo finalizado.");
     }

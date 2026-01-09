@@ -17,6 +17,7 @@ public class FuncionarioService {
         funcionarios.add(new Funcionario("1", "João Silva", "CHEFIA A"));
         funcionarios.add(new Funcionario("2", "Maria Santos", "CHEFIA B"));
         funcionarios.add(new Funcionario("3", "Pedro Duarte", "CHEFIA A"));
+        funcionarios.add(new Funcionario("4", "Tiago Silva", "CHEFIA B"));
     }
 
     public List<Funcionario> listarTodos() {
